@@ -33,7 +33,7 @@
     <h2>How and why I made this</h2>
     <p>
       I used the fantastic
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"> HTML Elements Reference </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Elements Reference</a>
       on MDN and modified it as needed.
     </p>
     <p>I created Bolt.css because I wanted to</p>
@@ -46,7 +46,7 @@
     <p>
       Grab the
       <a href="https://github.com/tbolt/boltcss/blob/master/bolt.css">bolt.css</a>
-      stylesheet and add it manually to your app.
+      stylesheet and add it manually to your app/site.
     </p>
     <p>
       Alternatively, drop this right into your <code>&lt;head&gt;</code> to use it via a CDN.
@@ -119,7 +119,7 @@
       are <b class="term">chemistry</b> (the study of chemicals and the composition of substances) and
       <b class="term">physics</b> (the study of the nature and properties of matter and energy). First sentence in
       <cite>
-        <a href="http://www.george-orwell.org/1984/0.html"> Nineteen Eighty-Four </a>
+        <a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a>
       </cite>
       by George Orwell (Part 1, Chapter 1).
     </p>
@@ -159,7 +159,7 @@
 
     <small>
       This sample section of in-line text was mostly sourced from the wonderful
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"> HTML elements reference </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML elements reference</a>
       over on MDN.
     </small>
 
@@ -333,6 +333,10 @@
         <input type="number" id="favnum" name="favnum" value="" />
       </div>
       <div class="form-example">
+        <label for="date"> Date </label>
+        <input type="date" id="date" name="date" value="2006-01-02" />
+      </div>
+      <div class="form-example">
         <label for="surprise">
           <input type="checkbox" id="surprise" name="surprise" value="" />
           Add a surprise
@@ -372,7 +376,7 @@
       <div>
         <h3 class="demo-header">meter</h3>
         <label for="fuel">Fuel level</label>
-        <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter>
+        <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="77"></meter>
       </div>
 
       <!-- optgroup -->
@@ -408,13 +412,20 @@
           <output name="result" for="b">0</output>
         </form>
       </div>
+      
+      <!-- color -->
+      <div>
+        <h3 class="demo-header">color picker</h3>
+        <label for="color-picker">Pick a color</label>
+        <input type="color" id="color-picker" value="#843AB2" />
+      </div>
     </div>
 
     <!-- Footer -->
     <footer class="demo-footer">
       <hr />
       <small>
-        <a href="https://archive.org/details/SavantTrigger_Zelda_Prelude"> Audio Attribution </a>
+        <a href="https://archive.org/details/SavantTrigger_Zelda_Prelude">Audio Attribution</a>
       </small>
     </footer>
   </body>
